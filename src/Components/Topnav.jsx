@@ -29,6 +29,11 @@ function TopNav() {
       path: "/services",
       name: "Services",
     },
+
+    {
+      path: "/schedule",
+      name: "Schedule",
+    },
   ];
   return (
     <Navbar bg="light" expand="lg">

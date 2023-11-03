@@ -2,7 +2,7 @@ import TopNav from "./components/Topnav";
 import { Routes, Route } from "react-router-dom";
 import routes from "./routes";
 import "./App.css";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 const App = () => {
   console.log(routes);
 
@@ -22,7 +22,7 @@ const App = () => {
           );
         })}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

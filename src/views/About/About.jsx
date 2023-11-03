@@ -15,10 +15,12 @@ const About = () => {
         <Row>
           <Col>
             <p className="aboutDescription">
-              Dolphin Dancer is a travel agency it's a gateway to the world's
-              most enchanting places. With a team of travel enthusiasts who are
-              passionate about uncovering the hidden treasures of the world, we
-              are dedicated to creating unforgettable moments for our clients.
+              Dolphin Dancer is not just another travel agency; it's a gateway
+              to the world's most enchanting places. With a team of travel
+              enthusiasts who are passionate about uncovering the hidden
+              treasures of the world, we are dedicated to creating unforgettable
+              moments for our clients. Your dreams are our inspiration, and your
+              satisfaction is our mission
             </p>
           </Col>
         </Row>

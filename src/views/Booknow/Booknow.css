@@ -1,0 +1,139 @@
+.BookHome {
+  /* width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+ 
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  /* height: 100vh; */
+  align-items: center;
+  padding: 0 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../assets/AboutBg.jpg);
+}
+
+.homeContent {
+  width: 100%;
+  padding: 8rem 1.5rem 3rem;
+  display: flex;
+  row-gap: 2rem;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+  color: #2e3532;
+  z-index: 100;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.smallText {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2e3532;
+  line-height: 1.2;
+  padding-inline-start: 15px;
+}
+
+.homeTitle {
+  position: relative;
+  font-size: 1.8rem;
+  padding-inline-start: 15px;
+  margin-top: 10px;
+}
+
+.textdiv {
+  padding: 2rem 0;
+}
+
+.fromPlace {
+  margin-top: 15px;
+  padding-inline-start: 15px;
+}
+
+.cardDiv {
+  position: relative;
+  gap: 1rem;
+}
+
+.destinationInput {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  height: 80px;
+  padding: 0 1rem;
+}
+
+.dateInput {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  height: 80px;
+  padding: 0 1rem;
+  margin-top: 15px;
+}
+
+.inputflex {
+  padding: 0 1rem;
+}
+.label_total {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.booknow-content .btn-box {
+  justify-content: space-between;
+  width: 300px;
+  height: 50px;
+  padding-inline-end: -10px;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #d2b48c;
+  border: 2px solid #d2b48c;
+  border-radius: 8px;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 200px) {
+  .textdiv {
+    width: 50%;
+  }
+}
+@media (max-width: 200px) {
+  .smallText {
+    width: 50%;
+  }
+}
+@media (max-width: 200px) {
+  .homeTitle {
+    width: 50%;
+  }
+}
