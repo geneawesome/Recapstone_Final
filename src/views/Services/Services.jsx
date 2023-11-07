@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <>
       <section className="whyJoinSection">
-        <Container className="text-center grid gap-5">
+        <Container className="text-center grid gap-5 mb-5">
           <Row
             xs={1}
             md={4}
