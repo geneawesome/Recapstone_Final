@@ -40,7 +40,7 @@ const Footer = () => {
                 <a href="#">Order Status</a>
               </li> */}
               <li>
-                <a href="#">Payment Options</a>
+                <a href="/Booknow">Booknow</a>
               </li>
             </ul>
           </div>
