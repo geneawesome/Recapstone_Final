@@ -2,7 +2,7 @@ import Topnav from "./Components/Topnav";
 import { Routes, Route } from "react-router-dom";
 import routes from "./routes";
 import "./App.css";
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer";
 const App = () => {
   console.log(routes);
 
