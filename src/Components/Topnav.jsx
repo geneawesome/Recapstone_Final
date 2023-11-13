@@ -1,5 +1,6 @@
 import { Container, Navbar, Nav, NavLink } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import boatLogo from "../assets/boatlogo.png";
 import { Link } from "react-router-dom";
 import "./Topnav.css";
 import { useNavigate } from "react-router-dom";
@@ -38,7 +39,8 @@ function TopNav() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="brand gymfinity-logo">
+        <Navbar.Brand as={Link} to="/" className="brand Dolphin-logo">
+          <img src={boatLogo} className="shipLogo" />
           Dolphin Dancer
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -56,7 +58,7 @@ function TopNav() {
                 onClick={() => TopNav("/Booknow")}
                 className="btn btn-success"
               >
-                Booknow
+                Book Now
               </button>
             </Nav>
           }

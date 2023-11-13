@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding: 0 10%;
-  background-image: url(../../assets/heroBg.jpg);
+  background-image: url(../../assets/bgHero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,7 +14,7 @@
 .home-content h1 {
   font-size: 56px;
   font-weight: 700;
-  color: #2e3532;
+  color: #2f3030;
   line-height: 1.2;
 }
 

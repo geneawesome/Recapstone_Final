@@ -2,7 +2,6 @@
   background-image: url(../../assets/moored-ship-monaco-seaport.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .display-4 {
@@ -40,6 +39,7 @@
   font-weight: bolder;
   /* padding: 20px; */
   font-size: 15px;
+  margin-bottom: 15px;
 }
 .contactButton:hover {
   color: wheat;
