@@ -8,15 +8,6 @@ function TopNav() {
   const TopNav = useNavigate();
 
   const menuData = [
-    //   {
-    //     path:'/home',
-    //     name: "Home"
-    // },
-
-    // {
-    //   path: "/bmi",
-    //   name: "BmiCalculator",
-    // },
     {
       path: "/about",
       name: "About",
