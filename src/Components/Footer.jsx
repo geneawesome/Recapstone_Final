@@ -41,7 +41,7 @@ const Footer = () => {
                 <a href="#">Order Status</a>
               </li> */}
               <li>
-                <a href="/Booknow">Booknow</a>
+                <Link to="/booknow">Booknow</Link>
               </li>
             </ul>
           </div>
