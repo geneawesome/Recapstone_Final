@@ -1,46 +1,32 @@
 import React from "react";
+// import { useState, useEffect } from "react";
 import Form from "react-bootstrap/Form";
 // import axios from "axios";
 import "./Booknow.css";
-
-// const options = {
-//   method: "GET",
-//   url: "https://tripadvisor16.p.rapidapi.com/api/v1/cruises/searchCruises",
-//   params: {
-//     destinationId: "153339",
-//     order: "departure_date",
-//     page: "1",
-//     currencyCode: "USD",
-//   },
-//   headers: {
-//     "X-RapidAPI-Key": "7bbf2d3475msh4946f20725615d2p12e534jsna30c90b33bca",
-//     "X-RapidAPI-Host": "tripadvisor16.p.rapidapi.com",
-//   },
-// };
-
-// const locationOption = {
-//   method: "GET",
-//   url: "https://tripadvisor16.p.rapidapi.com/api/v1/cruises/getLocation",
-//   headers: {
-//     "X-RapidAPI-Key": "7bbf2d3475msh4946f20725615d2p12e534jsna30c90b33bca",
-//     "X-RapidAPI-Host": "tripadvisor16.p.rapidapi.com",
-//   },
-// };
-
 const Booknow = () => {
-  // const [cruises, setCruises] = React.useState([]);
-  // const [location, setLocation] = React.useState([]);
-  // React.useEffect(() => {
-  //   axios
-  //     .request(options)
-  //     .then(function (response) {
-  //       console.log(response.data.data.list);
-  //       setCruises(response.data.data.list);
-  //     })
-  //     .catch(function (error) {
-  //       console.log(error);
-  //     });
+  // const [travels, setTravels] = useState([]);
+  // useEffect(() => {
+  //   getTravels();
+  //   return () => {};
   // }, []);
+
+  // async function getTravels() {
+  //   const options = {
+  //     headers: {
+  //       "content-type": "application/json",
+  //       "X-RapidAPI-Key": "7bbf2d3475msh4946f20725615d2p12e534jsna30c90b33bca",
+  //       "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
+  //     },
+  //   };
+  //   const { data } = await axios.get(
+  //     "https://travel-advisor.p.rapidapi.com/hotels/v2/list",
+  //     options
+  //   );
+  //   data.forEach((items) => {
+  //     console.log(items);
+  //   });
+  //   setTravels(data);
+  // }
   return (
     <section className="BookHome">
       <div className="BgContainer">
@@ -49,11 +35,7 @@ const Booknow = () => {
             <span className="smallText">Our Packages</span>
             <h1 className="homeTitle">Search your Holidays</h1>
           </div>
-          {/* <div>
-          {cruises.map((cruise) => {
-            return <h1 key={cruise.id}>{cruise.seoName}</h1>;
-          })}
-        </div> */}
+
           <div className="cardDiv grid">
             <div className="ps-3">
               <h3>Origin:</h3>
