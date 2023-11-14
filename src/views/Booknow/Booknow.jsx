@@ -56,7 +56,7 @@ const Booknow = () => {
         </div> */}
           <div className="cardDiv grid">
             <div className="ps-3">
-              <h3>Location:</h3>
+              <h3>Origin:</h3>
               <Form.Select
                 className="w-25 p-3  "
                 aria-label="Default select example "
@@ -74,7 +74,7 @@ const Booknow = () => {
               </Form.Select>
             </div>
             <div className="fromPlace">
-              <h3>From:</h3>
+              <h3>Destination:</h3>
               <Form.Select
                 className="w-25 p-3  "
                 aria-label="Default select example "

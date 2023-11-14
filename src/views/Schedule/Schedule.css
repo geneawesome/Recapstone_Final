@@ -1,5 +1,5 @@
 #schedule {
-  background-image: url(../../assets/big-luxurious-cruise-ship-docked-nice-harbor-ai-generative.jpg);
+  background-image: url(../../assets/scheduleBG.jpg);
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,4 +10,5 @@
   margin-top: 30px;
   font-family: "Kanit";
   font-size: 30px;
+  color: #fff;
 }
