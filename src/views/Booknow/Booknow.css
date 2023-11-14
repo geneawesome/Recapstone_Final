@@ -93,6 +93,12 @@
   margin-top: 15px;
 }
 
+input {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .inputflex {
   padding: 0 1rem;
 }
