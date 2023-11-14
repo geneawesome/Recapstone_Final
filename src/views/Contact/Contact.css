@@ -35,12 +35,15 @@
 }
 
 .contactButton {
-  /* color: white; */
+  color: white;
   font-weight: bolder;
   /* padding: 20px; */
   font-size: 15px;
   margin-bottom: 15px;
+  background-color: #7795ef;
+  border-color: #7795ef;
 }
 .contactButton:hover {
-  color: wheat;
+  background-color: #0a2e9a;
+  color: white;
 }

@@ -38,7 +38,7 @@ const Contact = () => {
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="name"
+                    placeholder="Name"
                     type="text"
                   />
                 </Col>
@@ -47,7 +47,7 @@ const Contact = () => {
                     className="form-control rounded-0"
                     id="email"
                     name="email"
-                    placeholder="email"
+                    placeholder="Email"
                     type="email"
                   />
                 </Col>
@@ -56,7 +56,7 @@ const Contact = () => {
                 className="form-control rounded-0 mt-3"
                 id="message"
                 name="message"
-                placeholder="message"
+                placeholder="Message"
                 rows="5"
               ></textarea>
               <br />
