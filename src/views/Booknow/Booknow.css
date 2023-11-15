@@ -67,6 +67,12 @@
   padding-inline-start: 15px;
 }
 
+/* .languagesBook {
+  position: relative;
+  gap: 1rem;
+  padding-inline-start: 15px;
+} */
+
 .cardDiv {
   position: relative;
   gap: 1rem;

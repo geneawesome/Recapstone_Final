@@ -1,32 +1,7 @@
 import React from "react";
-// import { useState, useEffect } from "react";
 import Form from "react-bootstrap/Form";
-// import axios from "axios";
 import "./Booknow.css";
 const Booknow = () => {
-  // const [travels, setTravels] = useState([]);
-  // useEffect(() => {
-  //   getTravels();
-  //   return () => {};
-  // }, []);
-
-  // async function getTravels() {
-  //   const options = {
-  //     headers: {
-  //       "content-type": "application/json",
-  //       "X-RapidAPI-Key": "7bbf2d3475msh4946f20725615d2p12e534jsna30c90b33bca",
-  //       "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
-  //     },
-  //   };
-  //   const { data } = await axios.get(
-  //     "https://travel-advisor.p.rapidapi.com/hotels/v2/list",
-  //     options
-  //   );
-  //   data.forEach((items) => {
-  //     console.log(items);
-  //   });
-  //   setTravels(data);
-  // }
   return (
     <section className="BookHome">
       <div className="BgContainer">
@@ -35,7 +10,6 @@ const Booknow = () => {
             <span className="smallText">Our Packages</span>
             <h1 className="homeTitle">Search your Holidays</h1>
           </div>
-
           <div className="cardDiv grid">
             <div className="ps-3">
               <h3>Origin:</h3>

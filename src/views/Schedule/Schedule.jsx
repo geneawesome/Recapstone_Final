@@ -3,53 +3,6 @@ import Table from "react-bootstrap/Table";
 import "./Schedule.css";
 const Schedule = () => {
   return (
-    // <section id="schedule">
-    //   <div>
-    //     <h1 className="sched">Schedule of Ferries</h1>
-    //     <Table responsive="sm">
-    //       <thead>
-    //         <tr>
-    //           <th>#</th>
-    //           <th>Table heading</th>
-    //           <th>Table heading</th>
-    //           <th>Table heading</th>
-    //           <th>Table heading</th>
-    //           <th>Table heading</th>
-    //           <th>Table heading</th>
-    //         </tr>
-    //       </thead>
-    //       <tbody>
-    //         <tr>
-    //           <td>1</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //         </tr>
-    //         <tr>
-    //           <td>2</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //         </tr>
-    //         <tr>
-    //           <td>3</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //           <td>Table cell</td>
-    //         </tr>
-    //       </tbody>
-    //     </Table>
-    //   </div>
-    // </section>
     <section id="schedule">
       <Table striped bordered hover size="lg ">
         <thead>
