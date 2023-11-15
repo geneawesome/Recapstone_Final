@@ -62,9 +62,6 @@ const Contact = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  {/* <button className="btn ac_btn contactButton" type="submit">
-                    Send
-                  </button> */}
                   <Button className="btn ac_btn contactButton" variant="light">
                     Send
                   </Button>

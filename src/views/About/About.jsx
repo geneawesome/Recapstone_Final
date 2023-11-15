@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./About.css";
-// import aboutimage from '../../../assets/AboutBG.jpg'
 const About = () => {
   return (
     <section id="about">
