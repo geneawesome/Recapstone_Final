@@ -1,8 +1,8 @@
 #about {
-  background-image: url(../../assets/outdoor-balcony-boat-ship.jpg);
+  background-image: url(../../assets/victoria-harbor-hong-kong.jpg);
   display: flex;
   align-items: center;
-  padding: 10% 10%;
+  padding: 10%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,6 +45,6 @@
 
 @media (max-width: 600px) {
   .btnReadMore {
-    width: 50%;
+    width: 100%;
   }
 }
