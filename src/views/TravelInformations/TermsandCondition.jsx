@@ -24,7 +24,7 @@ const TermsandCondition = () => {
                 <Card.Text>
                   <Col>
                     <Image src={booking} fluid />
-                    <h3 className="">Booking and Reservations</h3>
+                    <h3 className="">Booking and Reservations:</h3>
                     <p>
                       All bookings are subject to availability. Reservations
                       require a non-refundable deposit at the time of booking.
