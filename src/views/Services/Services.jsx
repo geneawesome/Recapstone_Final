@@ -11,7 +11,7 @@ import SafetyMedicalServices from "../../assets/flat-world-health-day-background
 const Services = () => {
   return (
     <>
-      <section className="whyJoinSection">
+      <section className="Services">
         <Container className="text-center grid gap-5 mb-5">
           <Row
             xs={1}

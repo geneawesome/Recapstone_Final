@@ -1,8 +1,16 @@
-// import React from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 const Footer = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <footer className="footer">
       <div className="container">
@@ -24,7 +32,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
           <div className="footer-col">
             <h4>Get Help</h4>
             <ul>
@@ -33,6 +40,15 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className="footer-col">
+            <h4>Travel Information</h4>
+            <ul>
+              <li>
+                <Link to="/termsandCondition">Terms and Conditions</Link>
+              </li>
+            </ul>
+          </div>
+
           <div className="footer-col">
             <h4>Follow US</h4>
             <div className="social-links">

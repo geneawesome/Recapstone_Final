@@ -1,0 +1,7 @@
+.TravelInformations {
+  display: flex;
+  padding: 0 10%;
+  background-image: url(../../assets/termsandCondition.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
