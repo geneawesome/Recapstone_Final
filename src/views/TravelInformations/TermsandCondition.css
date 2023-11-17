@@ -11,21 +11,21 @@
 * {
   margin: 0;
   padding: 0;
-
   font-family: "Open Sans", sans-serif;
 }
 
 body {
   font-size: 12px;
-  /* background-image: url(../../assets/sailboat-sea-evening-sunlight-beautiful-sea-luxury-summer-adventure-active-vacation-mediterranean-sea-turkey.jpg); */
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .TermsandCondition {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../../assets/fantastic-seascape-with-ripples.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 90vh; */
 }
 
 .TermsandCondition {
