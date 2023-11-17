@@ -1,5 +1,7 @@
 import React from "react";
 import "./Registration.css";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 const Registration = () => {
   return (
     <section className="container">
@@ -41,7 +43,9 @@ const Registration = () => {
           </div>
         </div>
 
-        <button>Submit</button>
+        <Button className="regbutton" as={Link} to="/">
+          Submit
+        </Button>
       </form>
     </section>
   );
