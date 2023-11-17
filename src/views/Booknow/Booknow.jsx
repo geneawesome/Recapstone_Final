@@ -92,7 +92,7 @@ const Booknow = () => {
             </div>
             <div className="booknow-content">
               <div className="btn-box">
-                <a href="/Booknow">Book Now</a>
+                <a href="/regform">Book Now</a>
               </div>
             </div>
           </div>
