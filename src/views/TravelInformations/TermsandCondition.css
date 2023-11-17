@@ -1,7 +1,60 @@
-.TravelInformations {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/* .TravelInformations {
   display: flex;
   padding: 0 10%;
   background-image: url(../../assets/termsandCondition.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-size: 12px;
+  /* background-image: url(../../assets/sailboat-sea-evening-sunlight-beautiful-sea-luxury-summer-adventure-active-vacation-mediterranean-sea-turkey.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TermsandCondition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TermsandCondition {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  min-height: 80vh;
+  padding: 0 20px;
+}
+
+.terms_service .termsc_head {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  height: 40px;
+  color: rgb(51, 51, 51);
+}
+
+.terms_service .termsc_body {
+  height: calc(100% - 170px);
+  overflow: auto;
+  padding-right: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.terms_service .termsc_body ol li {
+  margin-bottom: 15px;
+}
+
+.terms_service .termsc_body ol li h3 {
+  margin-bottom: 5px;
 }
