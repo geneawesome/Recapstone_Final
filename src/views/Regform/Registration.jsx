@@ -36,7 +36,7 @@ const Registration = () => {
             </div>
             <div className="gender">
               <input type="radio" id="check-other" name="gender" />
-              <label for="check-other">prefer not to say</label>
+              <label for="check-other">Prefer not to say</label>
             </div>
           </div>
         </div>
