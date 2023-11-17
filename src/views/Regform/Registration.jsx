@@ -28,7 +28,7 @@ const Registration = () => {
           <div className="gender-option">
             <div className="gender">
               <input type="radio" id="check-male" name="gender" checked />
-              <label for="check-male">male</label>
+              <label for="check-male">Male</label>
             </div>
             <div className="gender">
               <input type="radio" id="check-female" name="gender" />
