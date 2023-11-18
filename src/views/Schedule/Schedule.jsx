@@ -10,7 +10,7 @@ const Schedule = () => {
           <tr>
             <th className="w-25 p-3">Schedule</th>
             <th className="w-25 p-3">Destination</th>
-            <th className="w-25 p-3">Ferry Type</th>
+            <th className="w-25 p-3">Cruises Type</th>
             <th className="w-25 p-3">Price</th>
           </tr>
         </thead>

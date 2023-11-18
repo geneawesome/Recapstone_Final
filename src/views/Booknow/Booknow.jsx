@@ -68,7 +68,7 @@ const Booknow = () => {
             </div>
 
             <div className="fromPlace">
-              <h3>Ferry Type</h3>
+              <h3>Cruises Type</h3>
               <Form.Select
                 className="w-25 p-3  "
                 aria-label="Default select example "
