@@ -6,7 +6,7 @@ const Schedule = () => {
     <section id="schedule">
       <Table striped bordered hover size="lg ">
         <thead>
-          <h2 className="sched">Schedule of Ferries:</h2>
+          <h2 className="sched">Schedule of Cruises:</h2>
           <tr>
             <th className="w-25 p-3">Schedule</th>
             <th className="w-25 p-3">Destination</th>
