@@ -14,7 +14,7 @@ const Booknow = () => {
             <div className="ps-3">
               <h3>Origin:</h3>
               <Form.Select
-                className="w-25 p-3  "
+                className="w-30 p-3  "
                 aria-label="Default select example "
               >
                 <option value="1">Manila</option>
@@ -32,7 +32,7 @@ const Booknow = () => {
             <div className="fromPlace">
               <h3>Destination:</h3>
               <Form.Select
-                className="w-25 p-3  "
+                className="w-30 p-3  "
                 aria-label="Default select example "
               >
                 <option value="1">Manila</option>
@@ -70,7 +70,7 @@ const Booknow = () => {
             <div className="fromPlace">
               <h3>Cruises Type</h3>
               <Form.Select
-                className="w-25 p-3  "
+                className="w-30 p-3  "
                 aria-label="Default select example "
               >
                 <option value="1">Regular</option>
