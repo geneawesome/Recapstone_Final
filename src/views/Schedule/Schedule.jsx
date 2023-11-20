@@ -174,7 +174,7 @@ const Schedule = () => {
             <td>2:00 PM</td>
             <td>Bohol</td>
             <td>Regular</td>
-            <td>3000</td>
+            <td>1000</td>
           </tr>
           <tr>
             <td>2:00 PM</td>
